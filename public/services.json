@@ -1,0 +1,97 @@
+[
+    {
+        "id": "S1001",
+        "sname": "Ambulance Service",
+        "img": "imges/services/ambu.jpg"
+    },
+    {
+        "id": "S1002",
+        "sname": "Operation Theater",
+        "img": "imges/services/badperation.jpg"
+    },
+    {
+        "id": "S1003",
+        "sname": "ICU Bed",
+        "img": "imges/services/badicu.jpg"
+    },
+    {
+        "id": "S1004",
+        "sname": "Blood Test",
+        "img": "imges/services/blood.jpg"
+    },
+    {
+        "id": "S1005",
+        "sname": "Brain Scan",
+        "img": "imges/services/brain.jpg"
+    },
+    {
+        "id": "S1006",
+        "sname": "Dental Treatment",
+        "img": "imges/services/dental.jpg"
+    },
+    {
+        "id": "S1007",
+        "sname": "DNA Test",
+        "img": "imges/services/dna.jpg"
+    },
+    {
+        "id": "S1008",
+        "sname": "EYE Treatment",
+        "img": "imges/services/eye.jpg"
+    },
+    {
+        "id": "S1009",
+        "sname": "Ear Treatment",
+        "img": "imges/services/hear.jpg"
+    },
+    {
+        "id": "S1010",
+        "sname": "Indoor Treatment",
+        "img": "imges/services/indoor.jpg"
+    },
+    {
+        "id": "S1011",
+        "sname": "Medicine Service",
+        "img": "imges/services/medicine.jpg"
+    },
+    {
+        "id": "S1012",
+        "sname": "MRI Test",
+        "img": "imges/services/mri.jpg"
+    },
+    {
+        "id": "S1013",
+        "sname": "Nose Treatment",
+        "img": "imges/services/nose.jpg"
+    },
+    {
+        "id": "S1014",
+        "sname": "Orthopadic",
+        "img": "imges/services/orthopadic.jpg"
+    },
+    {
+        "id": "S1015",
+        "sname": "Outdoor Treatment",
+        "img": "imges/services/outdoor.jpg"
+    },
+    {
+        "id": "S1016",
+        "sname": "Xray",
+        "img": "imges/services/scaning.jpg"
+    },
+    {
+        "id": "S1017",
+        "sname": "Skin Treatment",
+        "img": "imges/services/skin.jpg"
+    },
+    {
+        "id": "S1018",
+        "sname": "Ultrasonogram",
+        "img": "imges/services/ultra.jpg"
+    },
+    {
+        "id": "S1019",
+        "sname": "Report Delivery",
+        "img": "imges/services/xray.jpg"
+    }
+]

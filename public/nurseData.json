@@ -1,0 +1,80 @@
+[
+    {
+        "id": "N1001",
+        "name": "Shusmita Chy",
+        "gender": "Female",
+        "img": "imges/nurses/Shusmita Chy.jpg"
+    },
+    {
+        "id": "N1002",
+        "name": "Sheen Jeen",
+        "gender": "Male",
+        "img": "imges/nurses/Sheen Jeen.jpg"
+    },
+    {
+        "id": "N1003",
+        "name": "Rafiqul Hoque",
+        "gender": "Male",
+        "img": "imges/nurses/Rafiqul Hoque.jpg"
+    },
+    {
+        "id": "N1004",
+        "name": "Pritom Shaha",
+        "gender": "Male",
+        "img": "imges/nurses/Pritom Shaha.jpg"
+    },
+    {
+        "id": "N1005",
+        "name": "Prianka Sen",
+        "gender": "Female",
+        "img": "imges/nurses/Prianka Sen.jpg"
+    },
+    {
+        "id": "N1006",
+        "name": "Neal Ariana",
+        "gender": "Female",
+        "img": "imges/nurses/Neal Ariana.jpg"
+    },
+    {
+        "id": "N1007",
+        "name": "Ket Brawnia",
+        "gender": "Female",
+        "img": "imges/nurses/Ket Brawnia.jpg"
+    },
+    {
+        "id": "N1008",
+        "name": "Karimulla Khan",
+        "gender": "Male",
+        "img": "imges/nurses/Karimulla Khan.jpg"
+    },
+    {
+        "id": "N1009",
+        "name": "Julia Akter",
+        "gender": "Female",
+        "img": "imges/nurses/Julia Akter.jpg"
+    },
+    {
+        "id": "N1010",
+        "name": "Ena Luiziana",
+        "gender": "Female",
+        "img": "imges/nurses/Ena Luiziana.jpg"
+    },
+    {
+        "id": "N1011",
+        "name": "Chank Leen",
+        "gender": "Female",
+        "img": "imges/nurses/Chank Leen.jpg"
+    },
+    {
+        "id": "N1012",
+        "name": "Ana Franklin",
+        "gender": "Female",
+        "img": "imges/nurses/Ana Franklin.jpg"
+    },
+    {
+        "id": "N1013",
+        "name": "Abdul Karim",
+        "gender": "Male",
+        "img": "imges/nurses/Abdul Karim.jpg"
+    }
+]

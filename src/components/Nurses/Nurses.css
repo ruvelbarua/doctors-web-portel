@@ -1,0 +1,20 @@
+.container{
+    width: 100%;
+}
+.nurse-cart{
+    margin: 20px;
+    padding: 5px;
+    height: 50px;
+    background-color:cornflowerblue;
+    color: white;
+}
+.ncart{
+    margin: 10px;
+    padding: 10px;
+    height: 300px;
+    width: 280px;
+    background-color:lightsteelblue;
+    border-radius: 5px;
+    text-align: center;
+    color:indigo;
+}

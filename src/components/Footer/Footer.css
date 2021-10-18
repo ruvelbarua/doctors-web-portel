@@ -1,0 +1,21 @@
+
+.font{
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.hospital-text{
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    color:rgb(212, 5, 5);
+}
+
+.health{
+    font-size: 30px;
+    color:azure;
+}
+.ftext{
+    font-size: 16px;
+}

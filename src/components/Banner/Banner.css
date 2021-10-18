@@ -1,0 +1,18 @@
+
+.font{
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.hospital-text{
+    font-size: 55px;
+    font-weight: bold;
+    font-style: italic;
+    color:rgb(212, 5, 5);
+}
+
+.htext{
+    font-size: 30px;
+    color:black;
+}
