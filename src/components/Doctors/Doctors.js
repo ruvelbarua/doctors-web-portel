@@ -29,10 +29,10 @@ const AllDoctors = () => {
 
                                         </Row>
                                     </Container>
-                                    <div className="p-4">
+                                    <div className="p-3">
                                         <Button variant="danger" size="sm">
                                             Details
-                                        </Button>{' '}
+                                        </Button>
                                     </div>
                                 </div>
                             </div>

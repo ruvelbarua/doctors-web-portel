@@ -1,14 +1,26 @@
 import React from 'react';
+import { Form } from 'react-bootstrap';
+import useFirebase from '../Hook/useFirebase'
+
+
 
 const Login = () => {
+    const { loginWinGoogle, user } = useFirebase();
+
     return (
-        <div className="">
-            <h4>This is Login Page</h4>
-            <input className="mt-2" type="text" />
-            <br />
-            <input className="mt-2" type="text" />
-            <br />
-            <button className="bg-primary mt-4">Login With Google</button>
+        <div className="App">
+            <Form action="">
+                <h2>You are success:{user}</h2>
+                <div>
+                    <label htmlFor="email">Email</label>
+                    <input type="text" name="email" id="email" />
+                </div>
+                <div>
+                    <label htmlFor="password">Password</label>
+                    <input type="text" name="password" id="password" />
+                </div>
+                <button onClick={loginWinGoogle} type="submit">Login</button>
+            </Form>
         </div>
     );
 };

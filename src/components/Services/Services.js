@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Button } from 'react-bootstrap';
 import './Services.css';
 
 const Services = () => {
@@ -27,6 +28,11 @@ const Services = () => {
                                     </div>
                                     <div>
                                         <h4>{service.sname}</h4>
+                                    </div>
+                                    <div className="p-2">
+                                        <Button variant="primary" size="sm">
+                                            Details
+                                        </Button>
                                     </div>
                                 </div>
 

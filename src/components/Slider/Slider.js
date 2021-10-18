@@ -13,7 +13,7 @@ const Slider = () => {
                 <h2>Doctors Services</h2>
             </div>
             <div className="carousel">
-                <Carousel>
+                <Carousel className="text-center">
                     <Carousel.Item>
                         <img
                             className="d-block w-100"
