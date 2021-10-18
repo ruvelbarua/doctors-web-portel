@@ -20,7 +20,7 @@ const Banner = () => {
                             <Nav.Link href="#link">Nurse </Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Nav.Link href="#link">Our Services</Nav.Link>
+                            <Nav.Link href="#link">ServiceCharge</Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
                             <Nav.Link href="#link">Login</Nav.Link>
