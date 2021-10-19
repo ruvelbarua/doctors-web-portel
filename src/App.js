@@ -48,7 +48,7 @@ function App() {
             <Route exact path="/register">
               <Registration></Registration>
             </Route>
-            <Route exact path="/notfound">
+            <Route exact path="*">
               <Notfound></Notfound>
             </Route>
           </Switch>
