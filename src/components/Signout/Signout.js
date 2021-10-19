@@ -2,6 +2,7 @@ import React from 'react';
 import { Card, Button } from 'react-bootstrap';
 import Home from '../Home/Home';
 import Bnimage from '../../logo/bnr.jpg';
+import { Link } from 'react-router-dom';
 
 const Signout = () => {
     return (
@@ -18,7 +19,9 @@ const Signout = () => {
                     </Card.Body>
                 </Card>
                 <br />
-                <Button onClick={Home} variant="primary">Go Home</Button>
+                <Link to="/home">
+                    <Button variant="outline-primary">Go Home</Button>
+                </Link>
             </div>
         </div>
     );
