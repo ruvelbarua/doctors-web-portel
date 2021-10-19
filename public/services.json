@@ -93,5 +93,10 @@
         "id": "S1019",
         "sname": "Report Delivery",
         "img": "imges/services/xray.jpg"
+    },
+    {
+        "id": "S1019",
+        "sname": "ICU Ventilator",
+        "img": "imges/services/vantilator.jpg"
     }
 ]

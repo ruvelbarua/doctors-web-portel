@@ -1,0 +1,147 @@
+[
+    {
+        "id": "SC1001",
+        "sname": "Ambulance Service",
+        "img": "imges/services/ambu.jpg",
+        "m_price": "1500",
+        "tax": "0",
+        "s_charge": "500"
+    },
+    {
+        "id": "SC1002",
+        "sname": "Operation Theater",
+        "img": "imges/services/badperation.jpg",
+        "m_price": "15000",
+        "tax": "0",
+        "s_charge": "2500"
+    },
+    {
+        "id": "SC1003",
+        "sname": "ICU Bed",
+        "img": "imges/services/badicu.jpg",
+        "m_price": "2500",
+        "tax": "0",
+        "s_charge": "650"
+    },
+    {
+        "id": "SC1004",
+        "sname": "Blood Test",
+        "img": "imges/services/blood.jpg",
+        "m_price": "950",
+        "tax": "0",
+        "s_charge": "150"
+    },
+    {
+        "id": "SC1005",
+        "sname": "Brain Scan",
+        "img": "imges/services/brain.jpg",
+        "m_price": "4500",
+        "tax": "0",
+        "s_charge": "1500"
+    },
+    {
+        "id": "SC1006",
+        "sname": "Dental Treatment",
+        "img": "imges/services/dental.jpg",
+        "m_price": "4500",
+        "tax": "0",
+        "s_charge": "1500"
+    },
+    {
+        "id": "SC1007",
+        "sname": "DNA Test",
+        "img": "imges/services/dna.jpg",
+        "m_price": "4500",
+        "tax": "0",
+        "s_charge": "1500"
+    },
+    {
+        "id": "SC1008",
+        "sname": "EYE Treatment",
+        "img": "imges/services/eye.jpg",
+        "m_price": "4500",
+        "tax": "0",
+        "s_charge": "1500"
+    },
+    {
+        "id": "SC1009",
+        "sname": "Ear Treatment",
+        "img": "imges/services/hear.jpg",
+        "m_price": "4500",
+        "tax": "0",
+        "s_charge": "1500"
+    },
+    {
+        "id": "SC1010",
+        "sname": "Indoor Treatment",
+        "img": "imges/services/indoor.jpg",
+        "m_price": "1500",
+        "tax": "0",
+        "s_charge": "500"
+    },
+    {
+        "id": "SC1012",
+        "sname": "MRI Test",
+        "img": "imges/services/mri.jpg",
+        "m_price": "9500",
+        "tax": "0",
+        "s_charge": "1750"
+    },
+    {
+        "id": "SC1013",
+        "sname": "Nose Treatment",
+        "img": "imges/services/nose.jpg",
+        "m_price": "4500",
+        "tax": "0",
+        "s_charge": "1500"
+    },
+    {
+        "id": "SC1014",
+        "sname": "Orthopadic",
+        "img": "imges/services/orthopadic.jpg",
+        "m_price": "4500",
+        "tax": "0",
+        "s_charge": "1500"
+    },
+    {
+        "id": "SC1015",
+        "sname": "Outdoor Treatment",
+        "img": "imges/services/outdoor.jpg",
+        "m_price": "1200",
+        "tax": "0",
+        "s_charge": "500"
+    },
+    {
+        "id": "SC1016",
+        "sname": "Xray",
+        "img": "imges/services/scaning.jpg",
+        "m_price": "4500",
+        "tax": "0",
+        "s_charge": "1500"
+    },
+    {
+        "id": "SC1017",
+        "sname": "Skin Treatment",
+        "img": "imges/services/skin.jpg",
+        "m_price": "4500",
+        "tax": "0",
+        "s_charge": "1500"
+    },
+    {
+        "id": "SC1018",
+        "sname": "Ultrasonogram",
+        "img": "imges/services/ultra.jpg",
+        "m_price": "4500",
+        "tax": "0",
+        "s_charge": "1500"
+    },
+    {
+        "id": "SC1018",
+        "sname": "Hospital Bed",
+        "type": "",
+        "img": "imges/services/ultra.jpg",
+        "m_price": "1850",
+        "tax": "0",
+        "s_charge": "500"
+    }
+]
