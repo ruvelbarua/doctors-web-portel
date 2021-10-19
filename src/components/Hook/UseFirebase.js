@@ -1,40 +1,48 @@
-import initializeFirebaseApp from '../Firebase/Firebase.init';
 import { getAuth, signInWithPopup, GoogleAuthProvider, onAuthStateChanged, signOut } from "firebase/auth";
 import { useEffect, useState } from 'react';
-initializeFirebaseApp();
+import initializeAuthentication from '../Firebase/Firebase.init.js';
+
+initializeAuthentication();
 
 const useFirebase = () => {
-    const provider = new GoogleAuthProvider();
+    const [user, setUser] = useState({});
+    const [isLoading, setIsLoading] = useState(true);
     const auth = getAuth();
 
-    const [user, setUser] = useState({});
-    const [error, setError] = useState("");
-
-    const logInWithGoogle = () => {
-        signInWithPopup(auth, provider)
-            .then((result) => setUser(result.user))
-            .catch((error) => setError(error.message))
-    };
-
-    useEffect(() => {
-        onAuthStateChanged(auth, (user) => {
-            if (user) {
-                setUser(user);
-            } else {
-                setError("");
-            }
-        });
-
-    }, []);
-
-    const handleLogOut = () => {
-        signOut(auth).then(() => {
-            setUser({})
-        }).catch((error) => {
-            setError("")
-        });
+    const signInUsinGoogle = () => {
+        setIsLoading(true);
+        const googleProvider = new GoogleAuthProvider();
+        signInWithPopup(auth, googleProvider)
+            .then(result => {
+                setUser(result.user);
+            })
+            .finaly(() => setIsLoading(false));
     }
+    // user state change section
+    useEffect(() => {
+        const unsubscribed = onAuthStateChanged(auth, user => {
+            if (user) {
+                setUser(user)
+            }
+            else {
+                setUser({})
+            }
+            setIsLoading(false);
+        });
+        return () => unsubscribed;
+    }, [])
 
-    return { logInWithGoogle, user, error, handleLogOut };
-};
+    const logOut = () => {
+        setIsLoading(true);
+        signOut(auth)
+            .then(() => { })
+            .finaly(() => setIsLoading(false));
+    }
+    return {
+        user,
+        isLoading,
+        signInUsinGoogle,
+        logOut
+    }
+}
 export default useFirebase;

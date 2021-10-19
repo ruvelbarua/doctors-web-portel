@@ -1,6 +1,5 @@
 import React from 'react';
 import { Card, Button } from 'react-bootstrap';
-import Home from '../Home/Home';
 import Bnimage from '../../logo/bnr.jpg';
 import { Link } from 'react-router-dom';
 

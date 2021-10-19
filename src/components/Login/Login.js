@@ -1,11 +1,10 @@
 import React from 'react';
 import { Form } from 'react-bootstrap';
-import useFirebase from '../Hook/useFirebase'
-
+import useAuth from '../Hook/useAuth';
 
 
 const Login = () => {
-    const { loginWithGoogle, user } = useFirebase();
+    const { loginWithGoogle, user } = useAuth();
 
     return (
         <div className="App">

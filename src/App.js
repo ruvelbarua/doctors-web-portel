@@ -8,16 +8,16 @@ import Login from './components/Login/Login';
 import Signout from './components/Signout/Signout';
 import Registration from './components/Register/Register';
 import Doctors from './components/Doctors/Doctors'
-import Authprovider from './components/Context/Authprovider';
-import PrivateRoute from './components/Private/PrivateRoute';
+import PrivateRoute from './components/PrivateRout/PrivateRoute';
 import Nurses from './components/Nurses/Nurses';
 import Services from './components/Services/Services';
+import AuthProvider from './components/Context/AuthProvider';
 
 
 function App() {
   return (
     <>
-      <Authprovider>
+      <AuthProvider>
         <Router>
           <Header></Header>
           <Switch>
@@ -54,7 +54,7 @@ function App() {
           </Switch>
           <Footer></Footer>
         </Router>
-      </Authprovider>
+      </AuthProvider>
     </>
   );
 }
