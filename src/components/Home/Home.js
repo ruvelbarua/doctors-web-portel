@@ -4,7 +4,6 @@ import Services from '../Services/Services';
 import Nurses from '../Nurses/Nurses';
 import Slider from '../Slider/Slider';
 
-
 const Home = () => {
     return (
         <div>

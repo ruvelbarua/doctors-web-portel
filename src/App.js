@@ -10,7 +10,6 @@ import Registration from './components/Register/Register';
 import Doctors from './components/Doctors/Doctors'
 import Authprovider from './components/Context/Authprovider';
 import PrivateRoute from './components/Private/PrivateRoute';
-import ServiceCharge from './components/ServiceCharge/ServiceCharge';
 import Nurses from './components/Nurses/Nurses';
 import Services from './components/Services/Services';
 
@@ -34,8 +33,8 @@ function App() {
             <Route exact path="/doctors">
               <Doctors></Doctors>
             </Route>
-            <PrivateRoute exact path="/servicecharge">
-              <ServiceCharge></ServiceCharge>
+            <PrivateRoute exact path="/service">
+              <Services></Services>
             </PrivateRoute>
             <Route exact path="/nurses">
               <Nurses></Nurses>

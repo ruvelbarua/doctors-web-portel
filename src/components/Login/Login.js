@@ -5,7 +5,7 @@ import useFirebase from '../Hook/useFirebase'
 
 
 const Login = () => {
-    const { loginWinGoogle, user } = useFirebase();
+    const { loginWithGoogle, user } = useFirebase();
 
     return (
         <div className="App">
@@ -19,7 +19,7 @@ const Login = () => {
                     <label htmlFor="password">Password</label>
                     <input type="text" name="password" id="password" />
                 </div>
-                <button onClick={loginWinGoogle} type="submit">Login</button>
+                <button onClick={loginWithGoogle} type="submit">Login</button>
             </Form>
         </div>
     );

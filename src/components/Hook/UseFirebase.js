@@ -10,7 +10,7 @@ const useFirebase = () => {
     const [user, setUser] = useState({});
     const [error, setError] = useState("");
 
-    const loginWinGoogle = () => {
+    const logInWithGoogle = () => {
         signInWithPopup(auth, provider)
             .then((result) => setUser(result.user))
             .catch((error) => setError(error.message))
@@ -35,6 +35,6 @@ const useFirebase = () => {
         });
     }
 
-    return { loginWinGoogle, user, error, handleLogOut };
+    return { logInWithGoogle, user, error, handleLogOut };
 };
 export default useFirebase;

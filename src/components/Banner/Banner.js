@@ -2,8 +2,10 @@ import React from 'react';
 import Bgimg from '../../logo/hospital.jpg';
 import { Card, Nav, Button, Navbar, Container } from 'react-bootstrap';
 import './Banner.css';
+import useFirebase from '../Hook/useFirebase';
 
 const Banner = () => {
+    const { handleLogout, user } = useFirebase()
     return (
         <div className="m-auto">
             <Card>
@@ -28,9 +30,12 @@ const Banner = () => {
                         <Nav.Item>
                             <Nav.Link href="/register"><span className="text-primary">Register</span> </Nav.Link>
                         </Nav.Item>
-                        <Nav.Item>
-                            <Nav.Link href="/login"><span className="text-danger">Login</span> </Nav.Link>
-                        </Nav.Item>
+                        {user?.email ? (<Nav.Item>
+                            <Nav.Link onClick={handleLogout} href="/login"><span className="text-danger">Login</span> </Nav.Link>
+                        </Nav.Item>) : (
+                            <Nav.Item>
+                                <Nav.Link href="/signout"><span className="text-danger">Logout</span> </Nav.Link>
+                            </Nav.Item>)}
                     </div>
                     <div className="text-center ">
                         <h2 className="hospital-text">The Royal BD Hospital</h2>
