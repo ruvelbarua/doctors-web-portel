@@ -11,19 +11,25 @@ const Banner = () => {
                 <Card.ImgOverlay>
                     <div className="d-flex justify-content-center font ">
                         <Nav.Item>
-                            <Nav.Link href="#first">Home</Nav.Link>
+                            <Nav.Link href="/home"> <span className="text-success">Home</span> </Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Nav.Link href="#link">Doctor </Nav.Link>
+                            <Nav.Link href="/doctors"><span className="text-success">Doctor</span> </Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Nav.Link href="#link">Nurse </Nav.Link>
+                            <Nav.Link href="/services"><span className="text-success">Sevices</span> </Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Nav.Link href="#link">ServiceCharge</Nav.Link>
+                            <Nav.Link href="/nurses"><span className="text-success">Nurse</span>  </Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Nav.Link href="#link">Login</Nav.Link>
+                            <Nav.Link href="/servicecharge"><span className="text-success">Service Charge</span> </Nav.Link>
+                        </Nav.Item>
+                        <Nav.Item>
+                            <Nav.Link href="/register"><span className="text-primary">Register</span> </Nav.Link>
+                        </Nav.Item>
+                        <Nav.Item>
+                            <Nav.Link href="/login"><span className="text-danger">Login</span> </Nav.Link>
                         </Nav.Item>
                     </div>
                     <div className="text-center ">
