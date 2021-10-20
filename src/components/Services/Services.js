@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Button } from 'react-bootstrap';
+import { Col, Container, Image, Row, Button } from 'react-bootstrap';
 import './Services.css';
 
 const Services = () => {
@@ -12,25 +12,33 @@ const Services = () => {
 
     return (
         <div>
-            <div className="stitle">
-                <h2>Hospital Services</h2>
+            <div className="service-cart">
+                <h2 className="text-center">Our Services</h2>
             </div>
+
             <div className="container">
+
                 <div className="row">
                     {
                         services.map(service =>
                             <div className="col-md-3" key={service.id}>
                                 <div className="scart">
-                                    <div className="my-3">
-                                        <div className=" justify-align-center">
-                                            <img src={service.img} alt="" />
-                                        </div>
+                                    <div className="my-3 justify-align-center">
+                                        <Container>
+                                            <Row>
+
+                                                <Col xs={6} md={3}>
+                                                    <Image src={service.img} roundedCircle />
+                                                </Col>
+
+                                            </Row>
+                                        </Container>
                                     </div>
-                                    <div>
+                                    <div className="">
                                         <h4>{service.sname}</h4>
                                     </div>
-                                    <div className="p-2">
-                                        <Button variant="primary" size="sm">
+                                    <div className="p-3">
+                                        <Button variant="secondary" size="sm">
                                             Details
                                         </Button>
                                     </div>
@@ -40,9 +48,9 @@ const Services = () => {
                         )
                     }
                 </div>
-            </div>
+
+            </div >
         </div>
     );
-};
-
+}
 export default Services;
