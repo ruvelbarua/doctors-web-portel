@@ -9,6 +9,7 @@ import Registration from './components/Register/Register';
 import Doctors from './components/Doctors/Doctors'
 import PrivateRoute from './components/PrivateRout/PrivateRoute';
 import Nurses from './components/Nurses/Nurses';
+import Service from './components/Service/Service';
 import Services from './components/Services/Services';
 import AuthProvider from './components/Context/AuthProvider';
 import Logout from './components/Logout/Logout'
@@ -34,7 +35,7 @@ function App() {
               <Doctors></Doctors>
             </Route>
             <PrivateRoute exact path="/service">
-              <Services></Services>
+              <Service></Service>
             </PrivateRoute>
             <Route exact path="/nurses">
               <Nurses></Nurses>

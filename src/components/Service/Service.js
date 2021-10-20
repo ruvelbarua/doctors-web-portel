@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 const Allservice = () => {
     const [service, setService] = useState({})
     useEffect(() => {
-        fetch('serviceData.json')
+        fetch('/serviceData.json')
             .then(res => res?.json())
             .then(data => setService(data))
     }, [])

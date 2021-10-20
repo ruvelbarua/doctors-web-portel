@@ -21,13 +21,10 @@ const Banner = () => {
                             <Nav.Link as={HashLink} to="/doctors"><span className="text-success">Doctor</span> </Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Nav.Link as={HashLink} to="/services"><span className="text-success">Sevices</span> </Nav.Link>
-                        </Nav.Item>
-                        <Nav.Item>
                             <Nav.Link as={HashLink} to="/nurses"><span className="text-success">Nurse</span>  </Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Nav.Link as={HashLink} to="/servicecharge"><span className="text-success">Service Charge</span> </Nav.Link>
+                            <Nav.Link as={HashLink} to="/service"><span className="text-success">Service</span> </Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
                             <Nav.Link as={HashLink} to="/register"><span className="text-primary">Register</span> </Nav.Link>
@@ -37,7 +34,7 @@ const Banner = () => {
                             <Nav.Link as={Link} to="/login"><span className="text-danger">Login</span> </Nav.Link>}
 
                         <Navbar.Text>
-                            Signd in success: <a href="#login">{user?.displayName}</a>
+                            <a href="#login">{user?.displayName}</a>
                         </Navbar.Text>
                     </div>
                     <div className="text-center ">
