@@ -8,12 +8,12 @@ import Simg3 from '../../logo/doctorslide/doctor3.jpg';
 
 const Slider = () => {
     return (
-        <div className="container">
-            <div className="justify-align-center">
-                <div className="text-primary">
+        <div className="">
+            <div className="container">
+                <div className="text-danger text-center bg-primary">
                     <h2>Doctors Services</h2>
                 </div>
-                <div className="carousel">
+                <div className="container carousel">
                     <Carousel className="text-center">
                         <Carousel.Item>
                             <img

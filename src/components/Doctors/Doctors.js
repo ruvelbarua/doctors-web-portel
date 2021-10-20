@@ -12,7 +12,7 @@ const AllDoctors = () => {
     return (
         <div className="">
             <div className="consultent">
-                <h2 className="text-center">Our Expert Consultent</h2>
+                <h2 className="text-center">OUR EXPERT DOCTORS</h2>
             </div>
             <div className="container">
                 <div className="row">
