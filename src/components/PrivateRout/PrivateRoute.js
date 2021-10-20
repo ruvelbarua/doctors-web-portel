@@ -1,7 +1,6 @@
-import React, { useContext, createContext, useState } from "react";
 import { Spinner, Button } from "react-bootstrap";
 import {
-    BrowserRouter as Router, Switch, Route, Link, Redirect, useHistory, useLocation
+    BrowserRouter as Router, Route, Redirect
 } from "react-router-dom";
 import useAuth from "../Hook/useAuth";
 
