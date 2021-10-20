@@ -7,7 +7,7 @@ import useAuth from '../Hook/useAuth';
 import { HashLink } from 'react-router-hash-link';
 
 const Banner = () => {
-    const { user, Logout } = useAuth()
+    const { user, logOut } = useAuth()
     return (
         <div responsive="xl">
             <Card>
@@ -30,7 +30,7 @@ const Banner = () => {
                             <Nav.Link as={HashLink} to="/register"><span className="text-primary">Register</span> </Nav.Link>
                         </Nav.Item>
                         {user?.email ?
-                            <Button onClick={Logout} variant="danger">Logout</Button> :
+                            <Button onClick={logOut} variant="danger">Logout</Button> :
                             <Nav.Link as={Link} to="/login"><span className="text-danger">Login</span> </Nav.Link>}
 
                         <Navbar.Text>
