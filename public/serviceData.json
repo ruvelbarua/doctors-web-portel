@@ -1,105 +1,114 @@
 [
     {
-        "id": "SC1001",
+        "id": "S101",
         "sname": "Ambulance Service",
-        "time": "24/7 Hours",
+        "description": "Lorem ipsum door sit amet, consectetu radipisi cing elitBeatae autem aperiam neque quaera molestias voluptatibus harum ametipsa.",
         "img": "imges/services/ambu.jpg",
         "m_price": "1500",
         "tax": "0",
         "s_charge": "500"
     },
     {
-        "id": "SC1002",
+        "id": "S102",
         "sname": "Operation Theater",
-        "time": "24/7 Hours",
+        "description": "Lorem ipsum door sit amet, consectetu radipisi cing elitBeatae autem aperiam neque quaera molestias voluptatibus harum ametipsa.",
         "img": "imges/services/badperation.jpg",
         "m_price": "15000",
         "tax": "0",
         "s_charge": "2500"
     },
     {
-        "id": "SC1003",
+        "id": "S103",
         "sname": "ICU Bed",
-        "time": "24/7 Hours",
+        "description": "Lorem ipsum door sit amet, consectetu radipisi cing elitBeatae autem aperiam neque quaera molestias voluptatibus harum ametipsa.",
         "img": "imges/services/badicu.jpg",
         "m_price": "2500",
         "tax": "0",
         "s_charge": "650"
     },
     {
-        "id": "SC1004",
+        "id": "S104",
         "sname": "Blood Test",
-        "time": "24/7 Hours",
+        "description": "Lorem ipsum door sit amet, consectetu radipisi cing elitBeatae autem aperiam neque quaera molestias voluptatibus harum ametipsa.",
         "img": "imges/services/blood.jpg",
         "m_price": "950",
         "tax": "0",
         "s_charge": "150"
     },
     {
-        "id": "SC1005",
+        "id": "S105",
         "sname": "Brain Scan",
-        "time": "24/7 Hours",
+        "description": "Lorem ipsum door sit amet, consectetu radipisi cing elitBeatae autem aperiam neque quaera molestias voluptatibus harum ametipsa.",
         "img": "imges/services/brain.jpg",
         "m_price": "4500",
         "tax": "0",
         "s_charge": "1500"
     },
     {
-        "id": "SC1006",
+        "id": "S106",
         "sname": "Dental Treatment",
-        "time": "24/7 Hours",
+        "description": "Lorem ipsum door sit amet, consectetu radipisi cing elitBeatae autem aperiam neque quaera molestias voluptatibus harum ametipsa.",
         "img": "imges/services/dental.jpg",
         "m_price": "4500",
         "tax": "0",
         "s_charge": "1500"
     },
     {
-        "id": "SC1007",
+        "id": "S107",
         "sname": "DNA Test",
-        "time": "24/7 Hours",
+        "description": "Lorem ipsum door sit amet, consectetu radipisi cing elitBeatae autem aperiam neque quaera molestias voluptatibus harum ametipsa.",
         "img": "imges/services/dna.jpg",
         "m_price": "4500",
         "tax": "0",
         "s_charge": "1500"
     },
     {
-        "id": "SC1008",
+        "id": "S108",
         "sname": "EYE Treatment",
-        "time": "24/7 Hours",
+        "description": "Lorem ipsum door sit amet, consectetu radipisi cing elitBeatae autem aperiam neque quaera molestias voluptatibus harum ametipsa.",
         "img": "imges/services/eye.jpg",
         "m_price": "4500",
         "tax": "0",
         "s_charge": "1500"
     },
     {
-        "id": "SC1009",
+        "id": "S109",
         "sname": "Ear Treatment",
-        "time": "24/7 Hours",
+        "description": "Lorem ipsum door sit amet, consectetu radipisi cing elitBeatae autem aperiam neque quaera molestias voluptatibus harum ametipsa.",
         "img": "imges/services/hear.jpg",
         "m_price": "4500",
         "tax": "0",
         "s_charge": "1500"
     },
     {
-        "id": "SC1010",
+        "id": "S110",
         "sname": "Indoor Treatment",
-        "time": "10:00AM to 8:00PM",
+        "description": "Lorem ipsum door sit amet, consectetu radipisi cing elitBeatae autem aperiam neque quaera molestias voluptatibus harum ametipsa.",
         "img": "imges/services/indoor.jpg",
         "m_price": "1500",
         "tax": "0",
         "s_charge": "500"
     },
     {
-        "id": "SC1011",
+        "id": "S111",
+        "sname": "Medicine Service",
+        "description": "Lorem ipsum door sit amet, consectetu radipisi cing elitBeatae autem aperiam neque quaera molestias voluptatibus harum ametipsa.",
+        "img": "imges/services/medicine.jpg",
+        "m_price": "1500",
+        "tax": "0",
+        "s_charge": "500"
+    },
+    {
+        "id": "S112",
         "sname": "MRI Test",
-        "time": "24/7 Hours",
+        "description": "Lorem ipsum door sit amet, consectetu radipisi cing elitBeatae autem aperiam neque quaera molestias voluptatibus harum ametipsa.",
         "img": "imges/services/mri.jpg",
         "m_price": "9500",
         "tax": "0",
         "s_charge": "1750"
     },
     {
-        "id": "SC1012",
+        "id": "S113",
         "sname": "Nose Treatment",
         "time": "24/7 Hours",
         "img": "imges/services/nose.jpg",
@@ -108,55 +117,72 @@
         "s_charge": "1500"
     },
     {
-        "id": "SC1013",
+        "id": "S114",
         "sname": "Orthopadic",
-        "time": "24/7 Hours",
+        "description": "Lorem ipsum door sit amet, consectetu radipisi cing elitBeatae autem aperiam neque quaera molestias voluptatibus harum ametipsa.",
         "img": "imges/services/orthopadic.jpg",
         "m_price": "4500",
         "tax": "0",
         "s_charge": "1500"
     },
     {
-        "id": "SC1014",
+        "id": "S115",
         "sname": "Outdoor Treatment",
-        "time": "10:00AM to 4:00PM",
+        "description": "Lorem ipsum door sit amet, consectetu radipisi cing elitBeatae autem aperiam neque quaera molestias voluptatibus harum ametipsa.",
         "img": "imges/services/outdoor.jpg",
         "m_price": "1200",
         "tax": "0",
         "s_charge": "500"
     },
     {
-        "id": "SC1015",
+        "id": "S116",
         "sname": "Xray",
-        "time": "24/7 Hours",
+        "description": "Lorem ipsum door sit amet, consectetu radipisi cing elitBeatae autem aperiam neque quaera molestias voluptatibus harum ametipsa.",
         "img": "imges/services/scaning.jpg",
         "m_price": "4500",
         "tax": "0",
         "s_charge": "1500"
     },
     {
-        "id": "SC1016",
+        "id": "S117",
         "sname": "Skin Treatment",
-        "time": "24/7 Hours",
+        "description": "Lorem ipsum door sit amet, consectetu radipisi cing elitBeatae autem aperiam neque quaera molestias voluptatibus harum ametipsa.",
         "img": "imges/services/skin.jpg",
         "m_price": "4500",
         "tax": "0",
         "s_charge": "1500"
     },
     {
-        "id": "SC1017",
+        "id": "S118",
         "sname": "Ultrasonogram",
-        "time": "24/7 Hours",
+        "description": "Lorem ipsum door sit amet, consectetu radipisi cing elitBeatae autem aperiam neque quaera molestias voluptatibus harum ametipsa.",
         "img": "imges/services/ultra.jpg",
         "m_price": "4500",
         "tax": "0",
         "s_charge": "1500"
     },
     {
-        "id": "SC1018",
+        "id": "S119",
+        "sname": "Report Delivery",
+        "description": "Lorem ipsum door sit amet, consectetu radipisi cing elitBeatae autem aperiam neque quaera molestias voluptatibus harum ametipsa.",
+        "img": "imges/services/xray.jpg",
+        "m_price": "500",
+        "tax": "0",
+        "s_charge": "150"
+    },
+    {
+        "id": "S120",
+        "sname": "ICU Ventilator",
+        "img": "imges/services/vantilator.jpg",
+        "m_price": "2500",
+        "tax": "0",
+        "s_charge": "500"
+    },
+    {
+        "id": "S121",
         "sname": "Hospital Bed",
-        "type": "ICU VIP Cabin A B C",
-        "img": "imges/services/ultra.jpg",
+        "description": "Lorem ipsum door sit amet, consectetu radipisi cing elitBeatae autem aperiam neque quaera molestias voluptatibus harum ametipsa.",
+        "img": "imges/services/cabin.jpg",
         "m_price": "1850",
         "tax": "0",
         "s_charge": "500"

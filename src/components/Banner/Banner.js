@@ -1,13 +1,13 @@
 import React from 'react';
 import Bgimg from '../../logo/hospital.jpg';
-import { Card, Nav, Button, Navbar, Container } from 'react-bootstrap';
+import { Card, Nav, Button, Navbar } from 'react-bootstrap';
 import './Banner.css';
 import { Link } from 'react-router-dom';
 import useAuth from '../Hook/useAuth';
 import { HashLink } from 'react-router-hash-link';
 
 const Banner = () => {
-    const { user, logOut } = useAuth()
+    const { user, Logout } = useAuth()
     return (
         <div responsive="xl">
             <Card>
@@ -15,7 +15,7 @@ const Banner = () => {
                 <Card.ImgOverlay>
                     <div className="d-flex justify-content-center font">
                         <Nav.Item>
-                            <Nav.Link as={HashLink} to="/home#home"> <span className="text-success">Home</span> </Nav.Link>
+                            <Nav.Link as={HashLink} to="/home"> <span className="text-success">Home</span> </Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
                             <Nav.Link as={HashLink} to="/doctors"><span className="text-success">Doctor</span> </Nav.Link>
@@ -33,11 +33,11 @@ const Banner = () => {
                             <Nav.Link as={HashLink} to="/register"><span className="text-primary">Register</span> </Nav.Link>
                         </Nav.Item>
                         {user?.email ?
-                            <Button onClick={logOut} variant="danger">Logout</Button> :
+                            <Button onClick={Logout} variant="danger">Logout</Button> :
                             <Nav.Link as={Link} to="/login"><span className="text-danger">Login</span> </Nav.Link>}
 
                         <Navbar.Text>
-                            Signd in as: <a href="#login">{user?.displayName}</a>
+                            Signd in success: <a href="#login">{user?.displayName}</a>
                         </Navbar.Text>
                     </div>
                     <div className="text-center ">

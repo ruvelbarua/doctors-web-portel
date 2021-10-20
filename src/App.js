@@ -5,13 +5,13 @@ import Notfound from './components/Notfound/Notfound';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import Login from './components/Login/Login';
-import Signout from './components/Signout/Signout';
 import Registration from './components/Register/Register';
 import Doctors from './components/Doctors/Doctors'
 import PrivateRoute from './components/PrivateRout/PrivateRoute';
 import Nurses from './components/Nurses/Nurses';
 import Services from './components/Services/Services';
 import AuthProvider from './components/Context/AuthProvider';
+import Logout from './components/Logout/Logout'
 
 
 function App() {
@@ -42,8 +42,8 @@ function App() {
             <Route exact path="/login">
               <Login></Login>
             </Route>
-            <Route exact path="/signout">
-              <Signout></Signout>
+            <Route exact path="/logout">
+              <Logout></Logout>
             </Route>
             <Route exact path="/register">
               <Registration></Registration>
