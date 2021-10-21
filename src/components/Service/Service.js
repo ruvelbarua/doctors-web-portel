@@ -12,45 +12,37 @@ const Service = () => {
 
     return (
         <div>
-            <div className="service-cart">
-                <h2 className="text-center">OUR SERVICES</h2>
+            <div className="servicename">
+                <h2 className="text-center">OUR SERVICE DETAILS</h2>
             </div>
 
-            <div className="container">
-
+            <div className="container-fluid d-flex jusgify-content-center">
                 <div className="row">
                     {
                         services.map(service =>
-                            <div className="col-md-3" key={service.id}>
-                                <div className="scart">
+                            <div className="col-md-4" key={service.id}>
+                                <div className="d-flex  p-3 cart card-img" >
                                     <div className="my-3 justify-align-center">
-                                        <Container>
-                                            <Row>
-
-                                                <Col xs={6} md={3}>
-                                                    <Image src={service.img} roundedCircle />
-                                                </Col>
-
-                                            </Row>
-                                        </Container>
-                                    </div>
-                                    <div className="">
                                         <h4>{service.sname}</h4>
+                                        <Image className="img" src={service.img} />
+                                        <h4 className="my-2">Code:   {service.id}</h4>
                                     </div>
-                                    <div className="">
-                                        <h4>{service.description}</h4>
-                                    </div>
-                                    <div className="">
-                                        <h4>{service.price}</h4>
-                                    </div>
-                                    <div className="p-3">
-                                        <Button variant="secondary" size="sm">
-                                            Details
-                                        </Button>
+                                    <div className="my-5 p-2 text-dark ">
+                                        <td className="mx-2 cost">
+                                            <tr>Cost: {service.m_price}</tr>
+                                            <tr>Total Tax: {service.tax}</tr>
+                                            <tr>Charge: {service.s_charge}</tr>
+                                            <tr>Total: {service.total}</tr>
+                                        </td>
+                                        <div className="p-3">
+                                            <Button variant="danger" size="sm">
+                                                Submit
+                                            </Button>
+                                        </div>
                                     </div>
                                 </div>
-
                             </div>
+
                         )
                     }
                 </div>

@@ -16,7 +16,7 @@ const Services = () => {
                 <h2 className="text-center">OUR SERVICES</h2>
             </div>
 
-            <div className="container">
+            <div className="container-fluid">
 
                 <div className="row">
                     {

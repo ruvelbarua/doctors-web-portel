@@ -27,11 +27,13 @@ const Banner = () => {
                             <Nav.Link as={HashLink} to="/service"><span className="text-success">Service</span> </Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Nav.Link as={HashLink} to="/register"><span className="text-primary">Register</span> </Nav.Link>
+                            <Nav.Link as={HashLink} to="/service"><span className="text-success">About</span> </Nav.Link>
                         </Nav.Item>
+
                         {user?.email ?
                             <Button onClick={logOut} variant="danger">Logout</Button> :
-                            <Nav.Link as={Link} to="/login"><span className="text-danger">Login</span> </Nav.Link>}
+                            <Nav.Link as={HashLink} to="/register"><span className="text-primary">Register</span> </Nav.Link>
+                        }
 
                         <Navbar.Text>
                             <a href="#login">{user?.displayName}</a>

@@ -6,7 +6,8 @@
         "img": "imges/services/ambu.jpg",
         "m_price": "1500",
         "tax": "0",
-        "s_charge": "500"
+        "s_charge": "500",
+        "total": "0"
     },
     {
         "id": "S102",
@@ -15,7 +16,8 @@
         "img": "imges/services/badperation.jpg",
         "m_price": "15000",
         "tax": "0",
-        "s_charge": "2500"
+        "s_charge": "2500",
+        "total": "0"
     },
     {
         "id": "S103",
@@ -24,7 +26,8 @@
         "img": "imges/services/badicu.jpg",
         "m_price": "2500",
         "tax": "0",
-        "s_charge": "650"
+        "s_charge": "650",
+        "total": "0"
     },
     {
         "id": "S104",
@@ -33,7 +36,8 @@
         "img": "imges/services/blood.jpg",
         "m_price": "950",
         "tax": "0",
-        "s_charge": "150"
+        "s_charge": "150",
+        "total": "0"
     },
     {
         "id": "S105",
@@ -42,7 +46,8 @@
         "img": "imges/services/brain.jpg",
         "m_price": "4500",
         "tax": "0",
-        "s_charge": "1500"
+        "s_charge": "1500",
+        "total": "0"
     },
     {
         "id": "S106",
@@ -51,7 +56,8 @@
         "img": "imges/services/dental.jpg",
         "m_price": "4500",
         "tax": "0",
-        "s_charge": "1500"
+        "s_charge": "1500",
+        "total": "0"
     },
     {
         "id": "S107",
@@ -60,7 +66,8 @@
         "img": "imges/services/dna.jpg",
         "m_price": "4500",
         "tax": "0",
-        "s_charge": "1500"
+        "s_charge": "1500",
+        "total": "0"
     },
     {
         "id": "S108",
@@ -69,7 +76,8 @@
         "img": "imges/services/eye.jpg",
         "m_price": "4500",
         "tax": "0",
-        "s_charge": "1500"
+        "s_charge": "1500",
+        "total": "0"
     },
     {
         "id": "S109",
@@ -78,7 +86,8 @@
         "img": "imges/services/hear.jpg",
         "m_price": "4500",
         "tax": "0",
-        "s_charge": "1500"
+        "s_charge": "1500",
+        "total": "0"
     },
     {
         "id": "S110",
@@ -87,7 +96,8 @@
         "img": "imges/services/indoor.jpg",
         "m_price": "1500",
         "tax": "0",
-        "s_charge": "500"
+        "s_charge": "500",
+        "total": "0"
     },
     {
         "id": "S111",
@@ -96,7 +106,8 @@
         "img": "imges/services/medicine.jpg",
         "m_price": "1500",
         "tax": "0",
-        "s_charge": "500"
+        "s_charge": "500",
+        "total": "0"
     },
     {
         "id": "S112",
@@ -105,7 +116,8 @@
         "img": "imges/services/mri.jpg",
         "m_price": "9500",
         "tax": "0",
-        "s_charge": "1750"
+        "s_charge": "1750",
+        "total": "0"
     },
     {
         "id": "S113",

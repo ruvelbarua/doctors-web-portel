@@ -16,7 +16,7 @@ const useFirebase = () => {
             .then(result => {
                 setUser(result.user);
             })
-            .finaly(() => setIsLoading(false));
+            .finally(() => setIsLoading(false));
     }
     // user state change section
     useEffect(() => {
@@ -35,8 +35,9 @@ const useFirebase = () => {
     const logOut = () => {
         setIsLoading(true);
         signOut(auth)
-            .then(() => { })
-            .finaly(() => setIsLoading(false));
+
+            .then(() => {setUser({}) })
+            .finally(() => setIsLoading(false));
     }
     return {
         user,

@@ -10,8 +10,8 @@ const Slider = () => {
     return (
         <div className="">
             <div className="container">
-                <div className="text-danger text-center bg-primary">
-                    <h2>Doctors Services</h2>
+                <div className="text-light text-center bg-primary">
+                    <h2>DOCTORS SERVICES</h2>
                 </div>
                 <div className="container carousel">
                     <Carousel className="text-center">
