@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Col, Container, Image, Row, Button } from 'react-bootstrap';
+import { Image, Button } from 'react-bootstrap';
 import './Service.css';
 
 const Service = () => {
@@ -35,7 +35,7 @@ const Service = () => {
                                             <tr>Total: {service.total}</tr>
                                         </td>
                                         <div className="p-3">
-                                            <Button variant="danger" size="sm">
+                                            <Button onClick={Service} variant="danger" size="sm">
                                                 Submit
                                             </Button>
                                         </div>

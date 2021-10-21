@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { Col, Container, Image, Row, Button } from 'react-bootstrap';
+import { Col, Container, Image, Row, Button, Nav } from 'react-bootstrap';
+import Service from '../Service/Service';
 import './Services.css';
 
 const Services = () => {
@@ -41,6 +42,8 @@ const Services = () => {
                                         <Button variant="secondary" size="sm">
                                             Details
                                         </Button>
+
+
                                     </div>
                                 </div>
 
