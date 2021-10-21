@@ -11,6 +11,7 @@ import PrivateRoute from './components/PrivateRout/PrivateRoute';
 import Nurses from './components/Nurses/Nurses';
 import Service from './components/Service/Service';
 import Services from './components/Services/Services';
+import About from './components/About/About';
 import AuthProvider from './components/Context/AuthProvider';
 import Logout from './components/Logout/Logout'
 
@@ -48,6 +49,9 @@ function App() {
             </Route>
             <Route exact path="/register">
               <Registration></Registration>
+            </Route>
+            <Route exact path="/about">
+              <About></About>
             </Route>
             <Route exact path="*">
               <Notfound></Notfound>

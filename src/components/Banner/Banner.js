@@ -27,7 +27,7 @@ const Banner = () => {
                             <Nav.Link as={HashLink} to="/service"><span className="text-success">Service</span> </Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Nav.Link as={HashLink} to="/service"><span className="text-success">About</span> </Nav.Link>
+                            <Nav.Link as={HashLink} to="/about"><span className="text-success">About</span> </Nav.Link>
                         </Nav.Item>
 
                         {user?.email ?
