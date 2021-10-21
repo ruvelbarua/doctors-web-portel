@@ -2,14 +2,12 @@ import React from 'react';
 import Images from '../../logo/medicalboard.jpg';
 import Image from '../../logo/extracare.png';
 import './About.css'
-import { FaFacebookSquare, FaTwitterSquare, FaInstagramSquare, FaYoutube } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
 
 const About = () => {
     return (
         <div className="container-fluid d-flex">
             <div className="">
-                <div className="my-5 text-center text-danger">
+                <div className="my-3 text-center text-danger">
                     <h2>ABOUT US</h2>
                 </div>
                 <div className="">
