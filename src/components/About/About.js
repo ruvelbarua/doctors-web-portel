@@ -1,6 +1,6 @@
 import React from 'react';
 import Images from '../../logo/medicalboard.jpg';
-import Image from '../../logo/extracare.png';
+import Image from '../../logo/heart.jpg';
 import './About.css'
 import { FcCustomerSupport, FcDepartment, FcGoogle } from 'react-icons/fc';
 
