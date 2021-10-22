@@ -19,7 +19,7 @@ const Slider = () => {
         <div className="">
             <div className="container-fluid">
                 <div className="text-light text-center bg-primary">
-                    <h2>DOCTORS SERVICES</h2>
+                    <h2>HEALTH CARE</h2>
                 </div>
                 <div className="carousel justify-content-center">
                     <Carousel>

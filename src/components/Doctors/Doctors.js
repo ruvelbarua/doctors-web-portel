@@ -19,9 +19,9 @@ const AllDoctors = () => {
                     {
                         doctors.map(doctor =>
                             <div className="col-lg-4 col-md-6" key={doctor.id}>
-                                <div className="cart ">
+                                <div className="dcart">
                                     <h5>{doctor.name}</h5>
-                                    <Container className="justify-align-center">
+                                    <Container className="">
                                         <Row>
                                             <Col xs={6} md={4}>
                                                 <Image src={doctor.img} roundedCircle />

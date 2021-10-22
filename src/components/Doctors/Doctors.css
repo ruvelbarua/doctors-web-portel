@@ -8,10 +8,11 @@
     color: white;
     
 }
-.cart{
+.dcart{
     margin: 5px;
-    padding: 10px;
-    height: 320px;
+    padding: 20px;
+    gap: 2px;
+    height: 340px;
     width: 300px;
     background-color:lightseagreen;
     border-radius: 5px;
