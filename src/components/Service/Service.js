@@ -32,7 +32,7 @@ const Service = () => {
                                         <h4 className="my-2">Code:   {service.id}</h4>
                                     </div>
                                     <div className="my-5 p-2 text-dark ">
-                                        <h4 className="text-primary">Daily Cost :</h4>
+                                        <h4 className="text-danger">Daily Cost :</h4>
                                         <td className="mx-2 cost">
                                             <tr>Cost: {service.m_price}</tr>
                                             <tr>Total Tax: {service.tax}</tr>
@@ -40,9 +40,11 @@ const Service = () => {
                                             <tr>Total: {service.total}<HiOutlineCurrencyBangladeshi /></tr>
 
                                         </td>
-                                        <Link to="/card">
-                                            <Button variant="outline-primary">Subimit</Button>
-                                        </Link>
+                                        <div className="my-3">
+                                            <Link to="/card">
+                                                <Button variant="outline-primary">Subimit</Button>
+                                            </Link>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
