@@ -2,7 +2,6 @@ import React from 'react';
 import Bgimg from '../../logo/hospital.jpg';
 import { Card, Nav, Button, Navbar } from 'react-bootstrap';
 import './Banner.css';
-import { Link } from 'react-router-dom';
 import useAuth from '../Hook/useAuth';
 import { HashLink } from 'react-router-hash-link';
 
@@ -32,7 +31,7 @@ const Banner = () => {
 
                         {user?.email ?
                             <Button onClick={logOut} variant="danger">Logout</Button> :
-                            <Nav.Link as={HashLink} to="/register"><span className="text-primary">Register</span> </Nav.Link>
+                            <Nav.Link as={HashLink} to="/register"><span className="text-primary">Login</span> </Nav.Link>
                         }
 
                         <Navbar.Text>

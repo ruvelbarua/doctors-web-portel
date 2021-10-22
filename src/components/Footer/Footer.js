@@ -6,7 +6,6 @@ import { Card } from 'react-bootstrap';
 import { FcDepartment, FcCustomerSupport, FcGoogle } from "react-icons/fc";
 import { FaFacebookSquare, FaTwitterSquare, FaInstagramSquare, FaYoutube } from "react-icons/fa";
 
-
 const Footer = () => {
     return (
         <div className="d-fex">
