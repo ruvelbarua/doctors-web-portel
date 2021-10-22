@@ -14,7 +14,7 @@ const Nurses = () => {
     return (
         <div>
             <div className="nurse-cart">
-                <h2 className="text-center">OUR EXPERT NURSES</h2>
+                <h2 className="text-center">NURSES INFORMATION</h2>
             </div>
 
             <div className="container">

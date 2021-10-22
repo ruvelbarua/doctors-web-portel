@@ -11,8 +11,8 @@ const AllDoctors = () => {
     }, [])
     return (
         <div className="">
-            <div className="consultent">
-                <h2 className="text-center">OUR EXPERT DOCTORS</h2>
+            <div className="consultent text-danger">
+                <h2 className="text-center">DOCTORS INFORMATION</h2>
             </div>
             <div className="container">
                 <div className="row">
