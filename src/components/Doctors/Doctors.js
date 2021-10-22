@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './Doctors.css';
 import { Container, Button, Image, Row, Col } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const AllDoctors = () => {
     const [doctors, setDoctors] = useState([])
@@ -29,10 +30,10 @@ const AllDoctors = () => {
 
                                         </Row>
                                     </Container>
-                                    <div className="p-3">
-                                        <Button variant="danger" size="sm">
-                                            Details
-                                        </Button>
+                                    <div className="my-3">
+                                        <Link to="/doctorinfo">
+                                            <Button variant="outline-danger">Details</Button>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>

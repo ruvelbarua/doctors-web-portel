@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { Col, Container, Image, Row } from 'react-bootstrap';
+import { Col, Container, Image, Row, Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 import './Nurses.css';
 
@@ -37,6 +38,11 @@ const Nurses = () => {
                                     </div>
                                     <div>
                                         <h4>{nurse.name}</h4>
+                                    </div>
+                                    <div className="my-3">
+                                        <Link to="/nurseinfo">
+                                            <Button variant="outline-primary">More</Button>
+                                        </Link>
                                     </div>
                                 </div>
 

@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { Image, Button } from 'react-bootstrap';
 import { HiOutlineCurrencyBangladeshi } from "react-icons/hi";
+import { Link } from 'react-router-dom';
+import Logout from '../../components/Logout/Logout';
 import './Service.css';
 
 const Service = () => {
@@ -13,6 +15,7 @@ const Service = () => {
 
     return (
         <div>
+            <Logout></Logout>
             <div className="servicename">
                 <h2 className="text-center">OUR 24/7 HOURS SERVICES</h2>
             </div>
@@ -37,11 +40,9 @@ const Service = () => {
                                             <tr>Total: {service.total}<HiOutlineCurrencyBangladeshi /></tr>
 
                                         </td>
-                                        <div className="p-2">
-                                            <Button onClick={Service} variant="danger" size="sm">
-                                                Submit
-                                            </Button>
-                                        </div>
+                                        <Link to="/card">
+                                            <Button variant="outline-primary">Subimit</Button>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>

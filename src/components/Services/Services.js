@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Col, Container, Image, Row, Button, Nav } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import Service from '../Service/Service';
 import './Services.css';
 
@@ -38,13 +39,9 @@ const Services = () => {
                                     <div className="">
                                         <h4>{service.sname}</h4>
                                     </div>
-                                    <div className="p-3">
-                                        <Button variant="secondary" size="sm">
-                                            Details
-                                        </Button>
-
-
-                                    </div>
+                                    <Link to="/service">
+                                        <Button variant="outline-primary">Visit More</Button>
+                                    </Link>
                                 </div>
 
                             </div>

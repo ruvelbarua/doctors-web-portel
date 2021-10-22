@@ -9,11 +9,13 @@ import Registration from './components/Register/Register';
 import Doctors from './components/Doctors/Doctors'
 import PrivateRoute from './components/PrivateRout/PrivateRoute';
 import Nurses from './components/Nurses/Nurses';
+import Nurseinfo from './components/Nurseinfo/Nurseinfo';
 import Service from './components/Service/Service';
 import Services from './components/Services/Services';
 import About from './components/About/About';
 import AuthProvider from './components/Context/AuthProvider';
 import Logout from './components/Logout/Logout'
+import Doctorinfo from './components/Doctorinfo/Doctorinfo';
 
 
 function App() {
@@ -35,11 +37,17 @@ function App() {
             <Route exact path="/doctors">
               <Doctors></Doctors>
             </Route>
+            <Route exact path="/doctorinfo">
+              <Doctorinfo></Doctorinfo>
+            </Route>
             <PrivateRoute exact path="/service">
               <Service></Service>
             </PrivateRoute>
             <Route exact path="/nurses">
               <Nurses></Nurses>
+            </Route>
+            <Route exact path="/nurseinfo">
+              <Nurseinfo></Nurseinfo>
             </Route>
             <Route exact path="/login">
               <Login></Login>

@@ -6,9 +6,9 @@ import { Link } from 'react-router-dom';
 const Signout = () => {
     return (
         <div className="text-center text-primary p-5">
-            <h2>Welcome. </h2>
+            <h2>Congratulations. </h2>
             <p>You are Successful Signin Our Page.</p>
-            <div className="w-50 justify-content-center">
+            <div className="w-100 justify-content-center">
                 <Card className="justify-content-center">
                     <Card.Img variant="top" src={Bnimage} />
                     <Card.Body className="text-danger">
