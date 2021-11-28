@@ -17,7 +17,7 @@ const Service = () => {
         <div>
             <Logout></Logout>
             <div className="servicename">
-                <h2 className="text-center">OUR 24/7 HOURS SERVICES</h2>
+                <h2 className="text-center">OUR SERVICES</h2>
             </div>
 
             <div className="container-fluid d-flex jusgify-content-center">
@@ -32,7 +32,7 @@ const Service = () => {
                                         <h4 className="my-2">Code:   {service.id}</h4>
                                     </div>
                                     <div className="my-5 p-2 text-dark ">
-                                        <h4 className="text-danger">Daily Cost :</h4>
+                                        <h6 className="text-danger">Minimum Cost :</h6>
                                         <td className="mx-2 cost">
                                             <tr>Cost: {service.m_price}</tr>
                                             <tr>Total Tax: {service.tax}</tr>
